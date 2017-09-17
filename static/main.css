@@ -1,0 +1,85 @@
+@import 'fadeInRight.css';
+@import 'fadeOutRight.css';
+@import 'fadeInLeft.css';
+@import 'bounceIn.css';
+
+.menu-buttons {
+    display: inline;
+}
+.menu-buttons.left {
+    float: left;
+}
+.menu-buttons.right {
+    float: right;
+}
+.menu-button {
+    margin: 0 20px    
+}
+.animation-fade-in {
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+   .login-form-forgot {
+    float: right;
+  }
+   .login-form-button {
+    width: 100%;
+  }
+
+
+.post-description {
+    width: 45%;
+    float: right;
+    animation: fadein 2s;
+}
+
+/* line page */
+.line-page::before {
+    content: " ";
+    border-bottom: 2px solid #3498db;
+    width: 95%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+}
+.line-page.large::before {
+    content: " ";
+    border-bottom: 2px solid #3498db;
+    width: 60%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+  
+.ant-badge-status-dot {
+    margin-bottom: 1px;
+}
+.animation-fade-in-right {
+    animation: fadeInRight 1s;
+}
+.animation-fade-out-right {
+    animation: fadeOutRight 1s;
+}
+.animation-fade-in-left {
+    animation: fadeInLeft 1s;
+}
+.animation-bounce-in {
+    animation: bounceIn 1s;
+}
